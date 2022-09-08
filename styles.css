@@ -1,0 +1,17 @@
+/* 1rem = 16px
+  16x10=160px
+  2rem = 32px
+  16x2 = 32px
+*/
+.big-title{
+  font-size: 5rem;
+  color:yellow;
+  font-family: cursive;
+}
+.new-styles{
+  font-size: 4rem;
+  color:violet;
+  text-align: center;
+  text-decoration: underline;
+  border: 1rem solid red;
+}

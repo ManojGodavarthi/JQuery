@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>jQuery</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- indcluding the jQuery cdn in head section dosent work
+  if you want to include it use the ready() function
+  syntax:
+  $(document).ready(function(){
+
+})
+-->
+</head>
+
+<body>
+  <h1>Hello.</h1>
+  <p id="para1">
+    This is a paragraph1
+  </p>
+  <p id="para2">
+    This is paragraph2
+  </p>
+  <button>click me</button>
+  <button>click me</button>
+  <button>click me</button>
+  <button>click me</button>
+  <button>click me</button>
+  <!-- It really matters where you are going to place the jQuery google cdn
+  1.If you place it above the external of index.js it works fine.
+  2.If you place the jQuery cdn below the index.js it shows you error.
+  Note:The browser reads the code from top to bottom
+  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
